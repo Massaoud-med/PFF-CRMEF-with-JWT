@@ -10,9 +10,6 @@ spring.datasource.username=postgres
 spring.datasource.password=enable
  
 # ===============================
-# JPA / HIBERNATE
-# ===============================
- 
 spring.jpa.show-sql=true
 spring.jpa.hibernate.ddl-auto=create
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
