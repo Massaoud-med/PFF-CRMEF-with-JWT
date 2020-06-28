@@ -1,17 +1,3 @@
-# Spring Boot JWT Authentication example with Spring Security & Spring Data JPA
-
-For more detail, please visit:
-> [Secure Spring Boot App with Spring Security & JWT Authentication](https://bezkoder.com/spring-boot-jwt-authentication/)
-
-> [For MongoDB](https://bezkoder.com/spring-boot-jwt-auth-mongodb/)
-
-# Fullstack
-
-> [Spring Boot + Vue.js JWT Authentication](https://bezkoder.com/spring-boot-vue-js-authentication-jwt-spring-security/)
-
-> [Spring Boot + Angular 8 JWT Authentication](https://bezkoder.com/angular-spring-boot-jwt-auth/)
-
-> [Spring Boot + React JWT Authentication](https://bezkoder.com/spring-boot-react-jwt-auth/)
 
 ## Dependency
 – If you want to use PostgreSQL:
@@ -47,23 +33,6 @@ spring.jpa.hibernate.ddl-auto= update
 # App Properties
 bezkoder.app.jwtSecret= bezKoderSecretKey
 bezkoder.app.jwtExpirationMs= 86400000
-```
-- For MySQL
-```
-spring.datasource.url= jdbc:mysql://localhost:3306/testdb?useSSL=false
-spring.datasource.username= root
-spring.datasource.password= 123456
-
-spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDialect
-spring.jpa.hibernate.ddl-auto= update
-
-# App Properties
-bezkoder.app.jwtSecret= bezKoderSecretKey
-bezkoder.app.jwtExpirationMs= 86400000
-```
-## Run Spring Boot application
-```
-mvn spring-boot:run
 ```
 
 ## Run following SQL insert statements
